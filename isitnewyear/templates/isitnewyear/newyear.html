@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {% load static %}
 
 <!DOCTYPE html>
@@ -19,4 +20,27 @@
     {% endif %}
     {% endblock %}
 </body>
+=======
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Is It New Year?</title>
+    <link href="{% static 'isitnewyear/styles.css' %}" rel="stylesheet" >
+</head>
+<body>
+    {% block content %}
+    {% if newyear %}
+        <h1 class="text">Happy New Year!</h1>
+    {% elif newyeareve %}
+        <h1 class="text">New Year's Eve!</h1>
+    {% else %}
+        <h1 class="text">Just a Regular Day...</h1>
+    {% endif %}
+    {% endblock %}
+</body>
+>>>>>>> f3a8a26eb894af3d5e70e5dde272d241869820c7
 </html> 

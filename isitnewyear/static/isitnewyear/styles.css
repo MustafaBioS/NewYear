@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     background-color: black;
     display: flex;
@@ -12,4 +13,20 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     font-size: 90px;
+=======
+body {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.text {
+    position: inherit;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 90px;
+>>>>>>> f3a8a26eb894af3d5e70e5dde272d241869820c7
 }
