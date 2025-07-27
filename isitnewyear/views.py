@@ -10,4 +10,3 @@ def isitnewyear(request):
         "newyear": now.month == 1 and now.day == 1,
         "newyeareve": now.month == 12 and now.day == 31
     })
-
